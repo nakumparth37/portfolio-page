@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="grid  grid-cols-1 md:grid-cols-4  gap-20 lg:max-xl:gap-0 ">
+    <div
+      class="section_info col-span-3 lg:sticky lg:h-screen top-0  md:col-span-1  border-2 border-b-[#2196f3] lg:border-r-[#2196f3] lg:border-b-0">
+      <div class="img overflow-hidden">
+        <img src="https://images.pexels.com/photos/428333/pexels-photo-428333.jpeg?auto=compress&cs=tinysrgb&w=1600"
+          alt="img">
+        <ul class="m-5 mt-[7rem]">
+          <li class="text-[1.5rem] text-[#023047] mx-8 p-2">Home</li>
+          <li class="text-[1.5rem] text-[#023047] mx-8 p-2">About</li>
+          <li class="text-[1.5rem] text-[#023047] mx-8 p-2">Skill</li>
+          <li class="text-[1.5rem] text-[#023047] mx-8 p-2">Work/Projects</li>
+          <li class="text-[1.5rem] text-[#023047] mx-8 p-2">Contact</li>
+        </ul>
+      </div>
+    </div>
+    <div class="info col-span-3 ">
+      <div class=" ">
+        <!-- Info Heading -->
+        <div class="title mt-10 bg-white sticky top-0" style="z-index: 10;">
+          <p class=" text-center
+           lg:text-right text-5xl mr-8"><span class="text-[#2196f3]">C</span>elestial <span
+              class="text-[#2196f3]">D</span>ragon</p>
+          <ul class="mt-6 flex justify-center lg:justify-start">
+            <li class="mx-2"><em class="fa-sharp  text-[1.5rem] text-[#fb8500] fa-solid fa-envelope"></em></li>
+            <li class="mx-2"><em class="fa-brands text-[1.5rem] text-[#fb8500]  fa-linkedin"></em></li>
+            <li class="mx-2"><em class="fa-brands text-[1.5rem] text-[#fb8500]  fa-square-twitter"></em></li>
+            <li class="mx-2"><em class="fa-brands text-[1.5rem] text-[#fb8500]  fa-square-instagram"></em></li>
+          </ul>
+          <hr class="mt-4 border-[#2196f3] ">
+        </div>
+
+        <!-- Home section -->
+        <div class="mb-12">
+          <div class="body flex flex-col mt-32 p-4 ">
+            <p class="text-5xl mt-10">Hello !</p>
+            <P class="text-4xl mt-10">I am a <span
+                class="z-0 before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-[#2196f3] relative inline-block">
+                <span class="relative text-white">Full stack Developer</span>
+              </span></P>
+            <p class="text-xl px-2.5 mt-10 mr-0  lg:w-10/12 lg:mt-24"><span class="text-[#2196f3]">-</span> Lorem ipsum
+              dolor sit amet consectetur adipisicing
+              elit. <span class="text-[#2196f3]"> Cumque ipsam, nihil incidunt </span>sint nesciunt illo ut ipsum quod
+              voluptates velit ea. Amet eaque illo illum!</p>
+            <button class="bg-[#ffb703] mt-12 self-end mr-8 text-white w-32 lg:mt-[10rem] p-2 font-bold "> <em
+                class="fa-solid fa-file-arrow-down mx-2"></em> Download</button>
+          </div>
+        </div>
+
+        <!-- About section -->
+        <div class="mb-12 flex">
+          <div class="body flex flex-col mt-32 p-4 ">
+            <P class="text-5xl mt-10"><span
+                class="z-0 before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-[#2196f3] relative inline-block">
+                <span class="relative text-white">Know about me !</span>
+              </span></P>
+            <div class="bg-hero bg-cover lg:h-[42rem] bg-top lg:bg-auto">
+              <div class="overlay bg-black opacity-[65%] h-[100%] flex flex-col justify-end text-right ">
+                <p class="text-xl text-white self-end mb-4 px-2.5 mt-10 mr-0 lg:w-10/12">
+                  <span class="text-[#2196f3]">-</span> Lorem ipsum dolor sit amet consectetur adipisicing
+                  elit. <span class="text-[#2196f3]"> Cumque ipsam, nihil incidunt </span>sint nesciunt illo ut ipsum
+                  quod
+                  voluptates velit ea. Amet eaque illo illum! Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Cumque doloremque quae nulla consequatur recusandae aspernatur exercitationem aperiam eum, fuga, quis
+                  cum, nisi adipisci.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Skill section -->
+        <div class="mb-12 p-4">
+          <div class="flex mr-24 justify-end">
+            <P class="text-5xl mt-10"><span
+                class="z-0 before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-[#023047] relative inline-block">
+                <span class="relative text-white">Ability to work In</span>
+              </span></P>
+          </div>
+          <div class="grid grid-clos-1 sm:grid-cols-2 xl:grid-cols-3 mt-24 gap-20">
+            <a href="#"
+              class="group block max-w-xs mx-auto rounded-lg p-6 bg-white ring-1 ring-slate-900/5 shadow-lg space-y-3 transition ease-in-out  transform hover:scale-125 sm:max-xl:hover:scale-105 hover:ring-sky-500">
+              <div class="flex items-center space-x-3">
+                <em class="fa-brands fa-java text-4xl text-[#f89820]"></em>
+                <h3 class="text-slate-900 text-sm font-semibold">JAVA</h3>
+              </div>
+              <p class="text-slate-500 text-sm">Done many project from a this skill and perform very well in the market.
+              </p>
+              <a href="#"
+                class="group block max-w-xs mx-auto rounded-lg p-6 bg-white ring-1 ring-slate-900/5 shadow-lg space-y-3 transition ease-in-out  transform hover:scale-125 sm:max-xl:hover:scale-105 hover:ring-sky-500">
+                <div class="flex items-center space-x-3">
+                  <em class="fa-brands fa-html5 text-4xl text-[#e34c26]"></em>
+                  <h3 class="text-slate-900  text-sm font-semibold">HTML5</h3>
+                </div>
+                <p class="text-slate-500  text-sm">Done many project from a this skill and perform very well in the
+                  market.</p>
+              </a>
+              <a href="#"
+                class="group block max-w-xs mx-auto rounded-lg p-6 bg-white ring-1 ring-slate-900/5 shadow-lg space-y-3 transition ease-in-out  transform hover:scale-125 sm:max-xl:hover:scale-105 hover:ring-sky-500">
+                <div class="flex items-center space-x-3">
+                  <em class="fa-brands fa-css3-alt text-4xl text-[#2965f1]"></em>
+                  <h3 class="text-slate-900  text-sm font-semibold">CSS3</h3>
+                </div>
+                <p class="text-slate-500  text-sm">Done many project from a this skill and perform very well in the
+                  market.</p>
+              </a>
+              <a href="#"
+                class="group block max-w-xs mx-auto rounded-lg p-6 bg-white ring-1 ring-slate-900/5 shadow-lg space-y-3 transition ease-in-out  transform hover:scale-125 sm:max-xl:hover:scale-105 hover:ring-sky-500">
+                <div class="flex items-center space-x-3">
+                  <em class="fa-brands fa-bootstrap text-4xl text-[#6812f3]"></em>
+                  <h3 class="text-slate-900  text-sm font-semibold">BOOTSTRAP</h3>
+                </div>
+                <p class="text-slate-500  text-sm">Done many project from a this skill and perform very well in the
+                  market.</p>
+              </a>
+              <a href="#"
+                class="group block max-w-xs mx-auto rounded-lg p-6 bg-white ring-1 ring-slate-900/5 shadow-lg space-y-3 transition ease-in-out  transform hover:scale-125 sm:max-xl:hover:scale-105 hover:ring-sky-500">
+                <div class="flex items-center space-x-3">
+                  <em class="fa-brands fa-node-js text-4xl text-[#215732]"></em>
+                  <h3 class="text-slate-900  text-sm font-semibold">NODEjs</h3>
+                </div>
+                <p class="text-slate-500  text-sm">Done many project from a this skill and perform very well in the
+                  market.</p>
+              </a>
+              <a href="#"
+                class="group block max-w-xs mx-auto rounded-lg p-6 bg-white ring-1 ring-slate-900/5 shadow-lg space-y-3 transition ease-in-out  transform hover:scale-125 sm:max-xl:hover:scale-105 hover:ring-sky-500">
+                <div class="flex items-center space-x-3">
+                  <em class="fa-brands fa-react text-4xl text-[#61dbfb]"></em>
+                  <h3 class="text-slate-900  text-sm font-semibold">REACT</h3>
+                </div>
+                <p class="text-slate-500  text-sm">Done many project from a this skill and perform very well in the
+                  market.</p>
+              </a>
+              <a href="#"
+                class="group block max-w-xs mx-auto rounded-lg p-6 bg-white ring-1 ring-slate-900/5 shadow-lg space-y-3 transition ease-in-out  transform hover:scale-125 sm:max-xl:hover:scale-105 hover:ring-sky-500">
+                <div class="flex items-center space-x-3">
+                  <em class="fa-brands fa-square-js text-4xl text-[#f7df1e]"></em>
+                  <h3 class="text-slate-900  text-sm font-semibold">JavaScript</h3>
+                </div>
+                <p class="text-slate-500  text-sm">Done many project from a this skill and perform very well in the
+                  market.</p>
+              </a>
+              <a href="#"
+                class="group block max-w-xs mx-auto rounded-lg p-6 bg-white ring-1 ring-slate-900/5 shadow-lg space-y-3 transition ease-in-out  transform hover:scale-125 sm:max-xl:hover:scale-105 hover:ring-sky-500">
+                <div class="flex items-center space-x-3">
+                  <em class="fa-brands fa-android text-4xl text-[#3DDC84]"></em>
+                  <h3 class="text-slate-900  text-sm font-semibold">ANDROID</h3>
+                </div>
+                <p class="text-slate-500  text-sm">Done many project from a this skill and perform very well in the
+                  market.</p>
+              </a>
+              <a href="#"
+                class="group block max-w-xs mx-auto rounded-lg p-6 bg-white ring-1 ring-slate-900/5 shadow-lg space-y-3 transition ease-in-out  transform hover:scale-125 sm:max-xl:hover:scale-105 hover:ring-sky-500">
+                <div class="flex items-center space-x-3">
+                  <em class="fa-brands fa-apple text-4xl text-[#555555]"></em>
+                  <h3 class="text-slate-900  text-sm font-semibold">IOS</h3>
+                </div>
+                <p class="text-slate-500  text-sm">Done many project from a this skill and perform very well in the
+                  market.</p>
+              </a>
+
+          </div>
+        </div>
+
+        <!-- Work or project  -->
+        <div class="mb-12 p-4">
+          <div>
+            <P class="text-5xl mt-10"><span
+                class="z-0 before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-[#ffb703] relative inline-block">
+                <span class="relative text-white">Work On *</span>
+              </span></P>
+          </div>
+          <div class="project_card grid grid-clos-1 sm:grid-cols-2 xl:grid-cols-3 mt-24 gap-20 ">
+            <div class="flex flex-col col-span-3 ">
+              <div
+                class="bg-white w-[20rem] xl:w-[27rem] m-8 dark:bg-slate-900 rounded-lg px-6 py-8 ring-1 ring-slate-900/5 shadow-xl transition ease-in-out  transform hover:scale-110 ">
+                <div>
+                  <span class="inline-flex items-center justify-center p-2 bg-indigo-500 rounded-md shadow-lg">
+                    <em class="fa-brands fa-node-js text-white text-2xl"></em>
+                  </span>
+                </div>
+                <h3 class="text-slate-900 dark:text-white mt-5 text-base font-medium tracking-tight">Writes Upside-Down
+                </h3>
+                <p class="text-slate-500 dark:text-slate-400 mt-2 text-sm">
+                  The Zero Gravity Pen can be used to write in any orientation, including upside-down. It even works in
+                  outer space.
+                </p>
+              </div>
+              <div
+                class="bg-white w-[20rem] xl:w-[27rem] m-8 dark:bg-slate-900 rounded-lg px-6 py-8 ring-1 ring-slate-900/5 shadow-xl self-end flex flex-col items-end transition ease-in-out  transform hover:scale-110 ">
+                <div>
+                  <span class="inline-flex items-center justify-center p-2 bg-indigo-500 rounded-md shadow-lg">
+                    <em class="fa-brands fa-node-js text-white text-2xl"></em>
+                  </span>
+                </div>
+                <h3 class="text-slate-900 dark:text-white mt-5 text-base font-medium tracking-tight">Writes Upside-Down
+                </h3>
+                <p class="text-slate-500 dark:text-slate-400 mt-2 text-sm text-end">
+                  The Zero Gravity Pen can be used to write in any orientation, including upside-down. It even works in
+                  outer space.
+                </p>
+              </div>
+              <div
+                class="bg-white w-[20rem] xl:w-[27rem] m-8 dark:bg-slate-900 rounded-lg px-6 py-8 ring-1 ring-slate-900/5 shadow-xl transition ease-in-out  transform hover:scale-110  ">
+                <div>
+                  <span class="inline-flex items-center justify-center p-2 bg-indigo-500 rounded-md shadow-lg">
+                    <em class="fa-brands fa-node-js text-white text-2xl"></em>
+                  </span>
+                </div>
+                <h3 class="text-slate-900 dark:text-white mt-5 text-base font-medium tracking-tight">Writes Upside-Down
+                </h3>
+                <p class="text-slate-500 dark:text-slate-400 mt-2 text-sm">
+                  The Zero Gravity Pen can be used to write in any orientation, including upside-down. It even works in
+                  outer space.
+                </p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- context section -->
+        <div class="mb-12 p-4">
+          <div class="flex mr-24 justify-end">
+            <P class="text-5xl mt-10"><span
+                class="z-0 before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-[#023047] relative inline-block">
+                <span class="relative text-white">Contact At</span>
+              </span></P>
+          </div>
+          <div class="grid grid-clos-1 sm:grid-cols-2 xl:grid-cols-3 mt-12 gap-20">
+
+            <form class="mx-4">
+              <label class="block my-8 ">
+                <span class="after:content-['*'] after:ml-0.5 after:text-red-500 block text-sm font-medium text-slate-700">
+                  Name
+                </span>
+                <input type="email" name="email" class="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block w-full rounded-md sm:text-sm focus:ring-1" placeholder="Enter a Name to know you " />
+              </label>
+              <label class="block my-8">
+                <span class="after:content-['*'] after:ml-0.5 after:text-red-500 block text-sm font-medium text-slate-700">
+                  Email
+                </span>
+                <input type="email" name="email" class="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block w-full rounded-md sm:text-sm focus:ring-1" placeholder="you@example.com" />
+              </label>
+              <label class="block my-8">
+                <span class="after:content-['*'] after:ml-0.5 after:text-red-500 block text-sm font-medium text-slate-700">
+                  Messages
+                </span>
+                <textarea type="email" name="email" class="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block w-full rounded-md sm:text-sm focus:ring-1" placeholder="you@example.com"></textarea>
+              </label>
+              <button class="bg-[#fb8500] pl-3 w-[4rem] h-[4rem] rounded-full shadow-lg font-bold text-white"><em class="fa-solid fa-paper-plane pr-4 text-2xl"></em></button>
+
+            </form>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  </div>
+</body>
+
+</html>
